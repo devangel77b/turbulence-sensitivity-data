@@ -1,0 +1,5 @@
+syntax: glob
+ts-test/image.png
+ts-test/canna-6ms-med.csv
+
+syntax: regexp
