@@ -1,0 +1,30 @@
+# Yaw corrections for Nano17 rotation
+# had to rotate ping pong series 90 because of hole drill pattern
+rect1: 0
+rect2: 0
+rect4: 0
+rect6: 0
+rect8: 0
+rect290: 0 
+rect490: 0
+rect690: 0
+rect890: 0
+pong1: 0
+pong2: 0
+pong4: 0 
+pong6: 0
+pong8: 0
+pong290: 90
+pong490: 90
+pong690: 90
+pong890: 90
+anchiornis: 0
+larus: 0
+oncorhynchus: 0
+chaetodon: 0
+hippocampus: 0
+nothing: 0
+noise: 0
+
+
+

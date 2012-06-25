@@ -1,0 +1,5 @@
+screen,dimension,leftmesh,leftmeshdim
+no,NA,no,NA
+fine,0.0016875,no,NA
+coarse,0.00635,yes,0.0015875
+middle,0.003175,yes,0.0015875

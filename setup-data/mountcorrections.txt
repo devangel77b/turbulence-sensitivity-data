@@ -1,0 +1,29 @@
+# Moment corrections for mount offset, given in m to the left 
+rect1: 0.0015
+rect2: 0.0015
+rect4: 0.0015
+rect6: 0.0015
+rect8: 0.0015
+rect290: 0.0015
+rect490: 0.0015
+rect690: 0.0015
+rect890: 0.0015
+pong1: 0.0095
+pong2: 0.003642
+pong4: 0
+pong6: 0
+pong8: 0
+pong290: 0.003642
+pong490: 0
+pong690: 0
+pong890: 0
+anchiornis: 0.0015
+larus: 0.0015
+oncorhynchus: 0.0015
+chaetodon: 0.0015
+hippocampus: 0.0015
+nothing: 0
+noise: 0
+speedcheck: 0
+noisefloor: 0
+

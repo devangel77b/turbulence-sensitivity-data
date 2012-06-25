@@ -1,0 +1,30 @@
+# Yaw corrections for Young 81000 ultrasonic anemometer
+# had to rotate slightly left to accomodate longer models
+rect1: 0
+rect2: 0
+rect4: 0
+rect6: 5
+rect8: 5
+rect290: 0 
+rect490: 0
+rect690: 5
+rect890: 5
+pong1: 0
+pong2: 0
+pong4: 0 
+pong6: 0
+pong8: 0
+pong290: 0
+pong490: 0
+pong690: 0
+pong890: 0
+anchiornis: 15
+larus: 0
+oncorhynchus: 15
+chaetodon: 0
+hippocampus: 0
+nothing: 0
+noise: 0
+
+
+

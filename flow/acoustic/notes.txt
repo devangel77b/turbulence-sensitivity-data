@@ -1,0 +1,15 @@
+20120622
+
+Placed Blue Microphone Snowflake in a tub of sand and placed in wind tunnel at same position as anemometer measurements.  
+
+Measured at spd=c(0,50,100,250)
+Vave=c(0.018,1.011,2.261,6.727)
+Hz = c(0,5.9,11.0,29.4)
+
+Sampling frequency 44.1 kHz, signed 32 bit floats. 
+
+20 minute samples, should provide for 10-20 cuts down to 11 or 5 Hz.
+
+T = 23.5 C
+Patm = 748.5 mmHg
+

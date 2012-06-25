@@ -1,0 +1,19 @@
+Results
+
+Flow
+- example data, example histogram
+- means, covariances
+- example spectrum, augmented with acoustic measurement and ID and quant noise floor and tob
+- example spectrum vs k, augmented and tob
+
+Force
+- example data, example histogram
+- means, covariances
+- example spectrum and tob
+- example spectrum vs k and tob
+
+Transfer functions
+- overall (covariances and nondimensional)
+- spectra, spectra vs k, tobs
+
+

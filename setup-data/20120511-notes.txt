@@ -1,0 +1,9 @@
+0850 - Started 10 minute noise floor recording with no model on sting and zero speed.  Goal is to measure the ambient noise in the sensors so I can draw the noise floor on all other graphs. 
+
+0950 - Started 1 minute x interval 5 speed check with no model on sting. This is a highly detailed wind tunnel speed calibration using the sonic.  
+
+
+20120516 1105 - Started runs with rect6. Was long enough that I had to rotate the anemometer left 5 degrees.  Remember to correct for this later.  
+
+20120517 1320 - rect690 runs may be bad (forgot to plug top). rect890 had to be rotated 5 degrees left. 
+
