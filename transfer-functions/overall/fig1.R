@@ -44,8 +44,13 @@ pdf("fig1raw.pdf",width=3,height=2,family="Times")
 print(fig1)
 dev.off()
 
-# save nice latex version
+# preview latex version
 tikz("fig1.tex",standAlone=TRUE,width=3,height=2)
+print(fig1+opts(legend.position="none"))
+dev.off()
+
+# save nice latex version
+tikz("fxVSux.tex",width=3,height=2)
 print(fig1+opts(legend.position="none"))
 dev.off()
 
@@ -69,6 +74,10 @@ dev.off()
 
 # save nice latex version
 tikz("fig1nd.tex",standAlone=TRUE,width=3,height=2)
+print(fig1nd+opts(legend.position="none"))
+dev.off()
+
+tikz("CdVSRe.tex",width=3,height=2)
 print(fig1nd+opts(legend.position="none"))
 dev.off()
 
