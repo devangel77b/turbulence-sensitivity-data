@@ -4,5 +4,9 @@ syntax: glob
 *.DS_Store
 *~
 *.pdf
+*.aux
+*.log
+*.synctex.gz
+*.tex
 
 syntax: regexp
