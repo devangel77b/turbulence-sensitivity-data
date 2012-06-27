@@ -94,9 +94,9 @@ all$NDforce <- sqrt(all$FZFZ)/(0.5*rho*all$V^2*all$plan.area)
 all$Re <- sqrt(all$UU)*all$lscale/nu
 fig2nd <- ggplot(data=all,aes(x=Re,y=NDforce,shape=treatname,colour=as.factor(AR)))+geom_point()
 fig2nd <- fig2nd+scale_colour_grey()
-fig2nd <- fig2nd+xlab("$\\mbox{Re}$")+ylab("$f'_{y,rms}/(0.5\\rho \\overline{u}^2 A)$")
+fig2nd <- fig2nd+xlab("$\\times 10^5, \\mbox{Re}$")+ylab("$f'_{y,rms}/(0.5\\rho \\overline{u}^2 A)$")
 fig2nd <- fig2nd+ylim(0,0.8)
-
+fig2nd <- fig2nd+scale_x_continuous(breaks=c(0,1e5,2e5,3e5,4e5,5e5),labels=c("$0$","$1$","$2$","$3$","$4$","$5$"))
 
 # save raw stand-in PDF version
 pdf("fig2ndraw.pdf",width=3,height=2,family="Times")
