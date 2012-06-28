@@ -39,7 +39,7 @@ theme_set(theme_bw(base_size=8))
 
 # dimensional plot of Pxx vs f
 fig5a <- ggplot(data=all,aes(x=frequency,y=FZ/U,colour=as.factor(AR)))+geom_line(aes(group=run))
-fig5a <- fig5a+scale_x_log10(breaks=c(0.1,0.2,0.5,1,2,5,10,20,50,100),labels=c(0.1,0.2,0.5,1,2,5,10,20,50,100))
+fig5a <- fig5a+scale_x_log10()#breaks=c(0.1,0.2,0.5,1,2,5,10,20,50,100),labels=c(0.1,0.2,0.5,1,2,5,10,20,50,100))
 fig5a <- fig5a+scale_y_log10()#breaks=c(1e-6,1e-5),labels=c("$10^{-6}$","$10^{-5}$"))
 fig5a <- fig5a+scale_color_grey()
 fig5a <- fig5a+xlab("$f, \\si{\\hertz}$")+ylab("$E_{f_x}/E_{u_x}, (\\si{\\newton})^2 (\\si{\\meter\\per\\second})^{-2} \\si{\\per\\hertz}$")
