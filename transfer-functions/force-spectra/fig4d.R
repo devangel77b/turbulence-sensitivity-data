@@ -30,7 +30,7 @@ fig4d <- ggplot(data=all,aes(x=as.factor(kcenterfreq),y=FZ,colour=as.factor(AR))
 fig4d <- fig4d+scale_x_discrete(labels=c(".02",".03",".06",".13",".25",".5","1","2","4","8","16","32","64","128"))
 fig4d <- fig4d+scale_y_log10()#breaks=c(1e-6,1e-5),labels=c("$10^{-6}$","$10^{-5}$"))
 fig4d <- fig4d+scale_color_grey()
-fig4d <- fig4d+xlab("third-octave-band center wavenumber, \\si{\\per\\meter}")+xlab("signal power, $\\si{\\newton\\squared}$")
+fig4d <- fig4d+xlab("third-octave-band center wavenumber, \\si{\\per\\meter}")+ylab("signal power, $\\si{\\newton\\squared}$")
 
 
 # save raw stand-in PDF version
